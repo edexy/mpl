@@ -1,0 +1,39 @@
+{
+  "name": "mockpremierleague",
+  "version": "1.0.0",
+  "description": "Mock Premier League",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app",
+    "test": "mocha --timeout 60000 ./test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adenijiayocharles/Mock-Premier-League.git"
+  },
+  "author": "Adeniji Charles Ayodipupo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adenijiayocharles/Mock-Premier-League/issues"
+  },
+  "homepage": "https://github.com/adenijiayocharles/Mock-Premier-League#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "connect-redis": "^3.4.2",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.16.4",
+    "express-session": "^1.16.2",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.3.16",
+    "nodemon": "^1.18.8",
+    "redis": "^2.8.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "faker": "^4.1.0",
+    "mocha": "^5.2.0",
+    "superagent": "^4.0.0",
+    "supertest": "^3.3.0"
+  }
+}
